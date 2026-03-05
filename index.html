@@ -1,27 +1,146 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Ini Title</title>
-  </head>
-  <body>
-     <h1>Form Data Diri</h1>
-    <form action="/submit" method="post">
-      <label for="nama">Nama:</label>
-      <input type="text" id="nama" name="nama" /><br /><br />
+<html lang="en">
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" /><br /><br />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanbercode - Kuasai Skill Digital Raih Suksesmu</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
 
-      <label for="gender">Jenis Kelamin:</label>
-      <input type="radio" id="male" name="gender" value="male" />
-      <label for="male">Laki-laki</label>
-      <input type="radio" id="female" name="gender" value="female" />
-      <label for="female">Perempuan</label><br /><br />
+    .hero-section {
+      padding: 60px 0;
+    }
 
-      <label for="pesan">Pesan:</label><br />
-      <textarea id="pesan" name="pesan"></textarea><br /><br />
+    .hero-text h1 {
+      font-size: 36px;
+      font-weight: 700;
+    }
 
-      <input type="submit" value="Kirim" />
-    </form>
-  </body>
+    .hero-text p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .btn-primary {
+      background-color: #0B0C5B;
+      border-radius: 25px;
+      padding: 15px 30px;
+    }
+
+    .btn-secondary {
+      background-color: transparent;
+      color: #0B0C5B;
+      border: 2px solid #0B0C5B;
+      border-radius: 25px;
+      padding: 15px 30px;
+    }
+
+    .popular-classes {
+      background-color: #0B0C5B;
+      color: #ffffff;
+      padding: 60px 0;
+    }
+
+    .class-card {
+      background-color: #ffffff;
+      color: #0B0C5B;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      height: 100%;
+    }
+
+    .class-card h3 {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+
+    .class-card p {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .btn-detail {
+      border: 2px solid #0B0C5B;
+      border-radius: 25px;
+      padding: 10px 20px;
+      color: #0B0C5B;
+      background-color: transparent;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="https://sanbercode.com/assets_new/images/logo/logo-horizontal.svg" alt="Sanbercode Logo"
+            width="150">
+        </a>
+      </nav>
+      <div class="row hero-section align-items-center">
+        <div class="col-md-6 hero-text">
+          <h1>Kuasai Skill Digital Raih Suksesmu</h1>
+          <p>Belajar dengan metode bootcamp "from zero to hero" dan gabung bersama 45.000+ alumni bootcamp</p>
+          <div class="d-flex gap-3">
+            <a href="#" class="btn btn-primary">Daftar Sekarang</a>
+            <a href="#" class="btn btn-secondary">Lihat Daftar Kelas</a>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="https://i.ibb.co.com/FHSb2W4/Mac-Book-Air-1.png" alt="Hero Image" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="popular-classes">
+    <div class="container">
+      <h2 class="text-center">Kelas Populer</h2>
+      <div class="row mt-4">
+        <div class="col-md-3 mb-4">
+          <div class="class-card p-3 h-100">
+            <h3>Prompt Engineer</h3>
+            <p>Kelas Prompt Engineering merupakan pengantar yang komprehensif dan praktis tentang penggunaan berbagai
+              strategi prompting dalam mengarahkan model AI, terutama Large Language Models (LLMs).</p>
+            <a href="detail-course.html" class="btn btn-detail">Detail</a>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="class-card p-3 h-100">
+            <h3>React JS - Web Frontend Development</h3>
+            <p>Kelas Prompt Engineering merupakan pengantar yang komprehensif dan praktis tentang penggunaan berbagai
+              strategi prompting dalam mengarahkan model AI, terutama Large Language Models (LLMs).</p>
+            <a href="detail-course.html" class="btn btn-detail">Detail</a>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="class-card p-3 h-100">
+            <h3>Prompt Engineer</h3>
+            <p>Kelas Prompt Engineering merupakan pengantar yang komprehensif dan praktis tentang penggunaan berbagai
+              strategi prompting dalam mengarahkan model AI, terutama Large Language Models (LLMs).</p>
+            <a href="detail-course.html" class="btn btn-detail">Detail</a>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="class-card p-3 h-100">
+            <h3>Prompt Engineer</h3>
+            <p>Kelas Prompt Engineering merupakan pengantar yang komprehensif dan praktis tentang penggunaan berbagai
+              strategi prompting dalam mengarahkan model AI, terutama Large Language Models (LLMs).</p>
+            <a href="detail-course.html" class="btn btn-detail">Detail</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>

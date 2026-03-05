@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.navbar {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+}
+
+.btn-primary {
+    background-color: #0B0C5B;
+    color: #ffffff;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #0B0C5B;
+    border: 2px solid #0B0C5B;
+}
+
+.hero-image img {
+    width: 400px;
+}
+
+.popular-classes {
+    background-color: #0B0C5B;
+    color: #ffffff;
+    padding: 60px 0;
+}
+
+.popular-classes h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.classes-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.class-card {
+    background-color: #ffffff;
+    color: #0B0C5B;
+    padding: 20px;
+    border-radius: 10px;
+    width: 23%;
+    text-align: center;
+}
+
+.class-card h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.class-card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.btn-detail {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0B0C5B;
+    background-color: transparent;
+    border: 2px solid #0B0C5B;
+    border-radius: 25px;
+}
